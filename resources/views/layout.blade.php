@@ -5,7 +5,7 @@
   <title>@yield('title')</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 </head>
-<body>
+<body style="margin-left: 100px; margin-right: 100px; padding: 10px;">
   @yield('main')
 
 </body>
