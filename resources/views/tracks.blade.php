@@ -1,6 +1,7 @@
 @extends('layout')
 @section('title', 'Tracks')
 @section('main')
+<a href="/tracks/new" class="btn btn-primary">Add Track</a>
 <h2>{{$genre}} Songs</h2>
 <table class="table">
   <tr>

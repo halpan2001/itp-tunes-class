@@ -10,6 +10,7 @@
     <tr>
       <td>
         <a href="/tracks?genre={{urlencode($genre->Name)}}">{{$genre->Name}}</a>
+        <a href="/genres/{{$genre->GenreId}}/edit"> | Edit</a>
       </td>
     </tr>
   @empty
