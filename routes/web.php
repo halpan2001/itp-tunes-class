@@ -9,7 +9,7 @@
 Route::get('/login', 'LoginController@index');
 Route::post('/login', 'LoginController@login');
 Route::get('/logout', 'LoginController@logout');
-Route::get('/maintenance', 'Admincontroller@maintenance');
+Route::get('/maintenance', 'AdminController@maintenance');
 
 //setting so that all the routes that need authentication go
 //through this route
