@@ -10,7 +10,7 @@ Input text here.
 </div>
 
 <script>
-let connection = new WebSocket('ws://aclarkso-node-websockets.herokuapp.com');
+let connection = new WebSocket('ws://hpan-websocket-demo.herokuapp.com');
 
 
 connection.onopen = () => {
