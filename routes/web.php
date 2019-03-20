@@ -39,4 +39,6 @@ Route::middleware(['maintenancemode'])->group(function(){
   //Users, Class Week 6
   Route::get('/signup', 'SignUpController@index');
   Route::post('/signup', 'SignUpController@signup');
+
+  Route::get('/docs', 'DocController@index');
 });
